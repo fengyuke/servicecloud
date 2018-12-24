@@ -90,5 +90,7 @@
 		<module>servicecloud-provider-dept-8001</module>
 		<module>servicecloud-consumer-dept-80</module>
 		<module>servicecloud-eureka-7001</module>
+		<module>servicecloud-eureka-7002</module>
+		<module>servicecloud-eureka-7003</module>
 	</modules>
 </project>

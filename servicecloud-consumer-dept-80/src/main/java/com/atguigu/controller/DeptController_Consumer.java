@@ -3,6 +3,7 @@ package com.atguigu.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -12,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
 import com.atguigu.springcloud.entities.Dept;
 
 @RestController
+@EnableEurekaClient
 public class DeptController_Consumer {
 	
 	private static final String REST_PREF_URL = "http://MICROSERVICECLOUD-DEPT";
