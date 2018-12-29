@@ -96,5 +96,6 @@
 		<module>servicecloud-provider-dept-8002</module>
 		<module>servicecloud-provider-dept-8003</module>
 		<module>servicecloud-zuul-gateway-9527</module>
+		<module>servicecloud-provider-dept-hystrix-8001</module>
 	</modules>
 </project>
