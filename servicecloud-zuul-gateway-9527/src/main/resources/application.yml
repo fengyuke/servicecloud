@@ -15,11 +15,11 @@ eureka:
     
 zuul:
   #ignored-services: microservicecloud-dept #此属性配置表示忽略服务名访问，类似于禁用服务名访问资源
-  prefix: /hello
+  prefix: /hello  #前缀过滤
   ignored-services: "*"
   routes: 
     mydept.serviceId: microservicecloud-dept
-    mydept.path: /mydept/**
+    mydept.path: /mydept/**   #请求路径过滤
 
 info:
   app.name: atguigu-microcloud
